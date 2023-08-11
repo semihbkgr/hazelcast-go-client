@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 func makeRetryPolicy(r *rand.Rand, config *cluster.ConnectionRetryConfig) cb.RetryPolicyFunc {

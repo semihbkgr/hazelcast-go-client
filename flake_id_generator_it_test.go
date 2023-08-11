@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/internal/it"
+	hz "github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it"
 	"github.com/stretchr/testify/assert"
 )
 

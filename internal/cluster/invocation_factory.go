@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
 )
 
 type ConnectionInvocationFactory struct {

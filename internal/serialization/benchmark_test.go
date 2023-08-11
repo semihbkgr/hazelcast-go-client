@@ -19,7 +19,7 @@ package serialization
 import (
 	"testing"
 
-	pubserialization "github.com/hazelcast/hazelcast-go-client/serialization"
+	pubserialization "github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 func BenchmarkService_LookUpDefaultSerializer(b *testing.B) {

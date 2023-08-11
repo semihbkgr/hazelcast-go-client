@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/hazelcast/hazelcast-go-client/sql"
+import "github.com/semihbkgr/hazelcast-go-client/sql"
 
 type ColumnMetadata struct {
 	ColumnName string

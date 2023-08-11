@@ -17,7 +17,7 @@
 package logger
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 )
 
 // Level is the importance of a log message.

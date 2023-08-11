@@ -21,17 +21,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/client"
-	icluster "github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/lifecycle"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	isql "github.com/hazelcast/hazelcast-go-client/internal/sql"
-	"github.com/hazelcast/hazelcast-go-client/sql"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/internal/client"
+	icluster "github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/lifecycle"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	isql "github.com/semihbkgr/hazelcast-go-client/internal/sql"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 const (

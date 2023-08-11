@@ -17,8 +17,8 @@
 package proxy
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 const canonicalizingSetClassID = 19

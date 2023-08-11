@@ -28,9 +28,9 @@ import (
 	"math/rand"
 	"time"
 
-	_ "github.com/hazelcast/hazelcast-go-client/sql/driver"
+	_ "github.com/semihbkgr/hazelcast-go-client/sql/driver"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 var names = []string{"Gorkem", "Ezgi", "Joe", "Jane", "Mike", "Mandy", "Tom", "Tina"}

@@ -20,9 +20,9 @@
 package hazelcast
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
 )
 
 func (ci *ClientInternal) ConnectionManager() *cluster.ConnectionManager {

@@ -22,8 +22,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
 )
 
 type CustomLogger struct {

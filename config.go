@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
-	"github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/logger"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 // Config contains configuration for a client.

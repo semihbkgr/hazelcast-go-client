@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 var listenerBinderConnectionEventSubID = event.NextSubscriptionID()

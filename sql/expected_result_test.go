@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	idriver "github.com/hazelcast/hazelcast-go-client/internal/sql/driver"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	idriver "github.com/semihbkgr/hazelcast-go-client/internal/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 func TestExpectedResultType_InternalValues(t *testing.T) {

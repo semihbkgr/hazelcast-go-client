@@ -26,9 +26,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/internal/it"
-	"github.com/hazelcast/hazelcast-go-client/internal/it/runtime"
+	hz "github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it/runtime"
 )
 
 func TestQueue_Add(t *testing.T) {

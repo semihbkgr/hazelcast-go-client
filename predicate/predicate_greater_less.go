@@ -19,7 +19,7 @@ package predicate
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 type predGreaterLess struct {

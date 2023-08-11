@@ -32,13 +32,13 @@ import (
 	"github.com/shirou/gopsutil/v3/mem"
 	"github.com/shirou/gopsutil/v3/process"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
 )
 
 var serviceHandleClusterEventSubID = event.NextSubscriptionID()

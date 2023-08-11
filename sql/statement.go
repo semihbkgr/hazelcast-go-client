@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 )
 
 // duplication of constants from internal driver package.

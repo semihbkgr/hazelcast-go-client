@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // In creates a predicate that will pass items if the value stored under the given item attribute is a member of the given values.

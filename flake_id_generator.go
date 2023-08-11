@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
 )
 
 const invalidFlakeID int64 = math.MinInt64

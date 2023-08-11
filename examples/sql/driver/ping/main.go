@@ -20,7 +20,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "github.com/hazelcast/hazelcast-go-client/sql/driver"
+	_ "github.com/semihbkgr/hazelcast-go-client/sql/driver"
 )
 
 func main() {

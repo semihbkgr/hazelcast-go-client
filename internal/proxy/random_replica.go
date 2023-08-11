@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
 )
 
 var commonRand = rand.New(rand.NewSource(time.Now().UnixNano()))

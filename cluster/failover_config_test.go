@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 func TestFailoverConfigValidate_Empty(t *testing.T) {

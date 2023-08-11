@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/hazelcast/hazelcast-go-client/types"
+import "github.com/semihbkgr/hazelcast-go-client/types"
 
 type QueryID struct {
 	MemberIDHigh int64

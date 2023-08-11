@@ -21,7 +21,7 @@ import (
 	"database/sql/driver"
 	"sync"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/client"
+	"github.com/semihbkgr/hazelcast-go-client/internal/client"
 )
 
 type Connector struct {

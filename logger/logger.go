@@ -19,7 +19,7 @@ package logger
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 )
 
 // Logger interface is used to provide a custom logger to the client.

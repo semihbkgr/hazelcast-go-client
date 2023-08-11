@@ -16,7 +16,7 @@
 
 package predicate
 
-import "github.com/hazelcast/hazelcast-go-client/serialization"
+import "github.com/semihbkgr/hazelcast-go-client/serialization"
 
 // True creates a predicate that always evaluates to true and passes all items.
 func True() *predTrue {

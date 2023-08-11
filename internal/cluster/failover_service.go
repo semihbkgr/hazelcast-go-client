@@ -19,9 +19,9 @@ package cluster
 import (
 	"sync/atomic"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/security"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/security"
 )
 
 // FailoverService is responsible for cluster failover state and attempts management.

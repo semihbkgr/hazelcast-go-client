@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
 )
 
 // Decimal is a wrapper for Hazelcast Decimal.

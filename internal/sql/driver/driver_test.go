@@ -27,13 +27,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/it/runtime"
-	idriver "github.com/hazelcast/hazelcast-go-client/internal/sql/driver"
-	"github.com/hazelcast/hazelcast-go-client/logger"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	pubdriver "github.com/hazelcast/hazelcast-go-client/sql/driver"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it/runtime"
+	idriver "github.com/semihbkgr/hazelcast-go-client/internal/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
+	pubdriver "github.com/semihbkgr/hazelcast-go-client/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 func TestArgNotNil(t *testing.T) {

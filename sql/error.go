@@ -16,7 +16,7 @@
 
 package sql
 
-import "github.com/hazelcast/hazelcast-go-client/types"
+import "github.com/semihbkgr/hazelcast-go-client/types"
 
 // Error is a server-side error that is propagated to the client.
 type Error struct {

@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/it/runtime"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it/runtime"
 )
 
 type cursorBufferSizeTestCase struct {

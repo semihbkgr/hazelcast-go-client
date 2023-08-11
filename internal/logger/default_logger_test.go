@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
 )
 
 const logMessage = "dummy"

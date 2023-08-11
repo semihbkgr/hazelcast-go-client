@@ -19,7 +19,7 @@ package cluster
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 var publicEndpointQualifier = EndpointQualifier{

@@ -16,7 +16,7 @@
 
 package serialization
 
-import pubserialization "github.com/hazelcast/hazelcast-go-client/serialization"
+import pubserialization "github.com/semihbkgr/hazelcast-go-client/serialization"
 
 func NewFieldDefinition(index int32, fieldName string, fieldType pubserialization.FieldDefinitionType, factoryID int32,
 	classID int32, version int32) pubserialization.FieldDefinition {

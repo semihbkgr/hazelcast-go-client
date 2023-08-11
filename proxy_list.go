@@ -19,12 +19,12 @@ package hazelcast
 import (
 	"context"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 /*

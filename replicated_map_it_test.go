@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/internal/it"
-	"github.com/hazelcast/hazelcast-go-client/predicate"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	hz "github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it"
+	"github.com/semihbkgr/hazelcast-go-client/predicate"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 func TestReplicatedMap_Put(t *testing.T) {

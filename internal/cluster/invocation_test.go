@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
-	icluster "github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
+	icluster "github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 func TestConnectionBoundInvocation_CanRetry(t *testing.T) {

@@ -18,7 +18,7 @@ package main
 
 import (
 	"context"
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 	"log"
 )
 

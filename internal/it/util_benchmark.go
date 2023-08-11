@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
+	hz "github.com/semihbkgr/hazelcast-go-client"
 )
 
 const EnvWarmupCount = "WARMUPS"

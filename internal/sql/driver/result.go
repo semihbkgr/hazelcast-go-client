@@ -23,9 +23,9 @@ import (
 	"io"
 	"sync/atomic"
 
-	icluster "github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	itype "github.com/hazelcast/hazelcast-go-client/internal/sql/types"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	icluster "github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	itype "github.com/semihbkgr/hazelcast-go-client/internal/sql/types"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 const identifiedEntryProcessorFactoryID = 66

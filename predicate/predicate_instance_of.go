@@ -19,7 +19,7 @@ package predicate
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // InstanceOf creates a predicate that will pass entries for which the value class is an instance of the given className.

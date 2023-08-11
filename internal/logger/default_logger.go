@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hazelcast/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
 )
 
 const (

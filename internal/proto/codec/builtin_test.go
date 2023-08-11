@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"testing"
 
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
 )
 
 func TestCodecUtil_FastForwardToEndFrame(t *testing.T) {

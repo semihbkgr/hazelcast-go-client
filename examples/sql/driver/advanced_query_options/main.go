@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/sql/driver"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 func main() {

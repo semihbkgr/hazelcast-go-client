@@ -22,15 +22,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/aggregate"
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	iproxy "github.com/hazelcast/hazelcast-go-client/internal/proxy"
-	"github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	"github.com/hazelcast/hazelcast-go-client/predicate"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/aggregate"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	iproxy "github.com/semihbkgr/hazelcast-go-client/internal/proxy"
+	"github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/predicate"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 /*

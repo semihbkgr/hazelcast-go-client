@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
 )
 
 // StackTraceElement contains stacktrace information for server side exception.

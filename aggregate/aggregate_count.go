@@ -17,8 +17,8 @@
 package aggregate
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // Count returns the number of values which includes the given attribute.

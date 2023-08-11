@@ -19,8 +19,8 @@ package cluster
 import (
 	"context"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
 )
 
 // AddressTranslator is used to resolve private ip address of cloud services.

@@ -16,7 +16,7 @@
 
 package predicate
 
-import "github.com/hazelcast/hazelcast-go-client/serialization"
+import "github.com/semihbkgr/hazelcast-go-client/serialization"
 
 // False creates a predicate that always evaluates to false and passes no items.
 func False() *predFalse {

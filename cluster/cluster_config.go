@@ -19,9 +19,9 @@ package cluster
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 const defaultName = "dev"

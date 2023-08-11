@@ -19,7 +19,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 	"github.com/stretchr/testify/assert"
 )
 

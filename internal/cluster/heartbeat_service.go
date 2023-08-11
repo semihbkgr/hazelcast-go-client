@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
 )
 
 type HeartbeatService struct {

@@ -19,7 +19,7 @@ package types
 import (
 	"database/sql/driver"
 
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 type Page struct {

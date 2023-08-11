@@ -17,8 +17,8 @@
 package aggregate
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // Min returns the minimum of the values corresponding to the given attribute.

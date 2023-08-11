@@ -26,9 +26,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 // See: https://hazelcast.atlassian.net/wiki/spaces/IMDG/pages/1650294837/Hazelcast+Serialization+Improvements

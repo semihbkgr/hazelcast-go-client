@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
 )
 
 func TestRandomPNCounterReplica_NoMembers(t *testing.T) {

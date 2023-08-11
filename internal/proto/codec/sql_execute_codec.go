@@ -17,10 +17,10 @@
 package codec
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	itype "github.com/hazelcast/hazelcast-go-client/internal/sql/types"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	itype "github.com/semihbkgr/hazelcast-go-client/internal/sql/types"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 const (

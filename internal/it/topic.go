@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
+	hz "github.com/semihbkgr/hazelcast-go-client"
 	"go.uber.org/goleak"
 )
 

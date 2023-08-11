@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
 )
 
 func TestFailingCircuitBreaker(t *testing.T) {

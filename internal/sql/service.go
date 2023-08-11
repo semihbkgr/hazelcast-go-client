@@ -24,13 +24,13 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	"github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	idriver "github.com/hazelcast/hazelcast-go-client/internal/sql/driver"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	idriver "github.com/semihbkgr/hazelcast-go-client/internal/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 var (

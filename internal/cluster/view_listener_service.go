@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
 )
 
 var viewListenerConnectionEventSubID = event.NextSubscriptionID()

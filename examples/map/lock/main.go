@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 // lockAndIncrement locks the given key, reads the value from it and sets back the incremented value.

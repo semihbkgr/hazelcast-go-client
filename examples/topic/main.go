@@ -23,7 +23,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 // messageListener handles incoming messages to the topic

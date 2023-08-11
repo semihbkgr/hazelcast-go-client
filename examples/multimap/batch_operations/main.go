@@ -22,7 +22,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 type employee struct {

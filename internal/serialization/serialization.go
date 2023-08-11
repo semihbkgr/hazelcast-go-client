@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/proxy"
-	pubserialization "github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proxy"
+	pubserialization "github.com/semihbkgr/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 // Service serializes user objects to Data and back to Object.

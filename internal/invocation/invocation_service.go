@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
-	"github.com/hazelcast/hazelcast-go-client/internal/event"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
+	"github.com/semihbkgr/hazelcast-go-client/internal/event"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
 )
 
 var serviceSubID = event.NextSubscriptionID()

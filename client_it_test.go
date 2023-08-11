@@ -30,14 +30,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/cluster"
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/internal/it"
-	"github.com/hazelcast/hazelcast-go-client/internal/proxy"
-	"github.com/hazelcast/hazelcast-go-client/logger"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	hz "github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proxy"
+	"github.com/semihbkgr/hazelcast-go-client/logger"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 var idGen = proxy.ReferenceIDGenerator{}

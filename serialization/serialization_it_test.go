@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"testing"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
+	hz "github.com/semihbkgr/hazelcast-go-client"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/it"
+	"github.com/semihbkgr/hazelcast-go-client/internal/it"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 func TestPortableSerialize(t *testing.T) {

@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 var ErrIndexOutOfRange = fmt.Errorf("index out of range")

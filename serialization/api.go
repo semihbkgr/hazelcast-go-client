@@ -17,7 +17,7 @@
 package serialization
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 // IdentifiedDataSerializableFactory is used to create IdentifiedDataSerializable instances during deserialization.

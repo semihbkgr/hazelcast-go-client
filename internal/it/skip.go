@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
 )
 
 const (

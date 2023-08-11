@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 /*

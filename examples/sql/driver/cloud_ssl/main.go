@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"time"
 
-	_ "github.com/hazelcast/hazelcast-go-client/sql/driver"
+	_ "github.com/semihbkgr/hazelcast-go-client/sql/driver"
 )
 
 // Change the following values according to your Hazelcast Cloud configuration

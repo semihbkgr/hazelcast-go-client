@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/predicate"
+	"github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/predicate"
 )
 
 func main() {

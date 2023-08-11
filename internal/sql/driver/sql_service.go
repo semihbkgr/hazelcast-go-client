@@ -23,16 +23,16 @@ import (
 	"math"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
-	"github.com/hazelcast/hazelcast-go-client/internal/cluster"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/invocation"
-	"github.com/hazelcast/hazelcast-go-client/internal/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	itypes "github.com/hazelcast/hazelcast-go-client/internal/sql/types"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cluster"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/invocation"
+	"github.com/semihbkgr/hazelcast-go-client/internal/logger"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	itypes "github.com/semihbkgr/hazelcast-go-client/internal/sql/types"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/codec"
-	iproxy "github.com/hazelcast/hazelcast-go-client/internal/proxy"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto/codec"
+	iproxy "github.com/semihbkgr/hazelcast-go-client/internal/proxy"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 type proxyManager struct {

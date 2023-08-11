@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
 )
 
 func TestIsNil(t *testing.T) {

@@ -17,7 +17,7 @@
 package serialization
 
 import (
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 )
 
 // ClassDefinition defines a class schema for Portable structs.

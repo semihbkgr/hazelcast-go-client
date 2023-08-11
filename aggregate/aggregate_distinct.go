@@ -17,8 +17,8 @@
 package aggregate
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/internal"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // DistinctValues returns the number of distinct values which has the given attribute.

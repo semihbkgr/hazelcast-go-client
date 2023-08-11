@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
+	hz "github.com/semihbkgr/hazelcast-go-client"
 )
 
 func SetTester(t *testing.T, f func(t *testing.T, s *hz.Set)) {

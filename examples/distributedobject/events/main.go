@@ -21,7 +21,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 func createDestroyMap(ctx context.Context, client *hazelcast.Client, name string) error {

@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"time"
 
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 type NilSerializer struct{}

@@ -23,8 +23,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	hz "github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	hz "github.com/semihbkgr/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 func SQLTester(t *testing.T, f func(t *testing.T, client *hz.Client, config *hz.Config, m *hz.Map, mapName string)) {

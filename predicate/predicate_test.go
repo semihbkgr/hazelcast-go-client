@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/predicate"
+	"github.com/semihbkgr/hazelcast-go-client/predicate"
 )
 
 func TestAnd(t *testing.T) {

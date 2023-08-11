@@ -21,9 +21,9 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/check"
-	"github.com/hazelcast/hazelcast-go-client/internal/client"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/check"
+	"github.com/semihbkgr/hazelcast-go-client/internal/client"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 )
 
 var (

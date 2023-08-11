@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/hzerrors"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/hzerrors"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 const employeeClassID = int32(1)

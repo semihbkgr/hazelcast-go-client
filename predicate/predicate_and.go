@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	serialization "github.com/hazelcast/hazelcast-go-client/serialization"
+	serialization "github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 /*

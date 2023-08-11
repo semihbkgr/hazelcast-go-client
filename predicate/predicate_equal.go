@@ -19,7 +19,7 @@ package predicate
 import (
 	"fmt"
 
-	serialization "github.com/hazelcast/hazelcast-go-client/serialization"
+	serialization "github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 // Equal creates a predicate that will pass items if the given value and the value stored under the given item attribute are equal.

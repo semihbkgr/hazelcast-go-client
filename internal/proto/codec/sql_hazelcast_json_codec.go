@@ -17,8 +17,8 @@
 package codec
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 func EncodeHazelcastJsonValue(clientMessage *proto.ClientMessage, jsonValue serialization.JSON) {

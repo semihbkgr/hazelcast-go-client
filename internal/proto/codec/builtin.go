@@ -26,13 +26,13 @@ import (
 	"strings"
 	"time"
 
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	iserialization "github.com/hazelcast/hazelcast-go-client/internal/serialization"
-	itype "github.com/hazelcast/hazelcast-go-client/internal/sql/types"
-	"github.com/hazelcast/hazelcast-go-client/sql"
-	"github.com/hazelcast/hazelcast-go-client/types"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
+	"github.com/semihbkgr/hazelcast-go-client/internal/proto"
+	iserialization "github.com/semihbkgr/hazelcast-go-client/internal/serialization"
+	itype "github.com/semihbkgr/hazelcast-go-client/internal/sql/types"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/types"
 )
 
 // Encoder for ClientMessage and value

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 func main() {

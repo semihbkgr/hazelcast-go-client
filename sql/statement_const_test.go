@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/sql/driver"
-	"github.com/hazelcast/hazelcast-go-client/sql"
+	"github.com/semihbkgr/hazelcast-go-client/internal/sql/driver"
+	"github.com/semihbkgr/hazelcast-go-client/sql"
 )
 
 func TestStatement_DefaultValues(t *testing.T) {

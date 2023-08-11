@@ -17,7 +17,7 @@
 package cluster
 
 import (
-	pubcluster "github.com/hazelcast/hazelcast-go-client/cluster"
+	pubcluster "github.com/semihbkgr/hazelcast-go-client/cluster"
 )
 
 const (

@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/cb"
+	"github.com/semihbkgr/hazelcast-go-client/internal/cb"
 )
 
 type HTTPHeader struct {

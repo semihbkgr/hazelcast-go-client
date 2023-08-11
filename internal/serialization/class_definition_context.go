@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"strconv"
 
-	ihzerrors "github.com/hazelcast/hazelcast-go-client/internal/hzerrors"
+	ihzerrors "github.com/semihbkgr/hazelcast-go-client/internal/hzerrors"
 
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/semihbkgr/hazelcast-go-client/serialization"
 )
 
 type ClassDefinitionContext struct {

@@ -19,7 +19,7 @@ package hazelcast
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/cluster"
+	"github.com/semihbkgr/hazelcast-go-client/cluster"
 )
 
 // EntryEventType is the type of an entry event.

@@ -1,4 +1,4 @@
-module github.com/hazelcast/hazelcast-go-client
+module github.com/semihbkgr/hazelcast-go-client
 
 go 1.17
 

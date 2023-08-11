@@ -19,7 +19,7 @@ package serialization
 import (
 	"encoding/binary"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/murmur"
+	"github.com/semihbkgr/hazelcast-go-client/internal/murmur"
 )
 
 const (

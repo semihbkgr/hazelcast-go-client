@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
+	"github.com/semihbkgr/hazelcast-go-client"
 )
 
 func main() {
